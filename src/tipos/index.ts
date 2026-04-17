@@ -12,9 +12,13 @@
  * TODO: Adicione os campos necessários para o seu caso de uso.
  */
 export interface EstadoGrafo {
+  sessionId: string;
   prompt: string;
+  historico: import('../memoria/memoriasSqlite').MensagemMemoria[];
   seguro?: boolean;
   razaoGuardrails?: string;
+  acaoOrquestrador?: string;
+  caminhoOrquestrador?: string;
   resposta?: string;
 }
 

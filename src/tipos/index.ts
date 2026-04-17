@@ -12,9 +12,10 @@
  * TODO: Adicione os campos necessários para o seu caso de uso.
  */
 export interface EstadoGrafo {
-  // Ex.: mensagens: BaseMessage[];
-  // Ex.: contextoArquivos: ConteudoArquivo[];
-  // Ex.: historico: string[];
+  prompt: string;
+  seguro?: boolean;
+  razaoGuardrails?: string;
+  resposta?: string;
 }
 
 // ─── Arquivos e Pastas ────────────────────────────────────────────────────────

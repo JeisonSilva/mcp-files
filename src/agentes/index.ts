@@ -3,3 +3,4 @@
  */
 export * from './agentePrincipal';
 export * from './agenteListarDiretorio';
+export * from './agenteGuardrails';
